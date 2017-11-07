@@ -1,22 +1,13 @@
-# Auto-ls
-
-There are many `auto-ls`s out there but this one is mine.
-
 # Features
 
-- Auto `ls` on `cwd` change
-- Auto `ls` on `enter-key` (with empty buffer)
+- Auto `exa -l` on `cwd` change
+- Auto `exa -l` on `enter-key` (with empty buffer)
 - Git status on a git work tree
 
 # Install
 
-    antigen bundle desyncr/auto-ls
+    antigen bundle bugworm/auto-exa
 
 # Configuration
 
 There is no configuration available.
-
-# Future
-
-- `zstyle` options to customize ls options
-- `zstyle` options to customize git status
